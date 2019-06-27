@@ -67,7 +67,7 @@
     </where>
   </sql>
   <sql id="Base_Column_List" >
-    id, countryname, countrycode
+    id,countryname, countrycode
   </sql>
   <select id="selectByExample" resultMap="BaseResultMap" parameterType="com.ergou.springbootmybatis.bean.CountryExample" >
     select
